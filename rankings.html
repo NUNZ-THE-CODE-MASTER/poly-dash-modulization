@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Rankings</title>  
+    <link rel="stylesheet" href="../css_folder/styles.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script defer src="../javascript_folder/footer.js"></script> 
+</head>  
+<body>  
+    <!-- Video Background -->  
+    <video autoplay muted loop id="bg-video">  
+        <source src="../videos/backg1.mp4" type="video/mp4">  
+        Your browser does not support the video tag.  
+    </video>  
+    
+    <div class="transparent-nav">  
+        <div class="nav-container">  
+            <div class="logo">  
+                <img src="../images/logo.png" alt="Logo" />  
+            </div>  
+            <nav>  
+                <ul>  
+                    <li><a href="/html_folder/index.html">Home</a></li>  
+                    <li><a href="/html_folder/about.html">About</a></li>  
+                    <li><a href="/html_folder/rankings.html">Rankings</a></li>  
+                    <li><a href="/html_folder/contact.html">Contact</a></li>  
+                    <li><a href="/html_folder/login.html">Login/Registration</a></li>   
+                </ul>  
+            </nav>  
+            <div class="translation-button">  
+                <select>  
+                    <option value="en">English</option>  
+                    <option value="es">Español</option>  
+                    <option value="fr">Français</option>  
+                </select>  
+            </div>  
+        </div>  
+    </div>  
+
+        <div class="container">  
+            <section class="rankings">
+        <h1>Player Rankings</h1>  
+        <table>  
+            <thead>  
+                <tr>  
+                    <th>Rank</th>  
+                    <th>Player Name</th>  
+                    <th>Score</th>  
+                    <th>Level Completed</th>  
+                </tr>  
+            </thead>  
+            <tbody id="RankingsTableBody">  </tbody>  
+        </table>  
+        <p>Note: Ranking is based on the highest score achieved in completed levels.</p> 
+        <footer id="footer"></footer> 
+    </section>  
+
+      
+</body>  
+</html>
